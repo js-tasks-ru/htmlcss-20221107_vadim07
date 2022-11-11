@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: red;
+  color: white;
+  height: 8vh;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+article {
+  background-color: blue;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  padding: 10px;
+}
+nav {
+  background-color: orange;
+  height: 100%;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  font-size: 1.5rem;
+}
+
+main {
+  box-sizing: border-box;
+  background-color: green;
+  color: white;
+  padding: 20px;
+  height: 87vh;
+}
+footer {
+  background-color: pink;
+  color: white;
+  height: 5vh;
+}
+
+footer h1 {
+  margin: 0;
+  text-align: center;
+}
