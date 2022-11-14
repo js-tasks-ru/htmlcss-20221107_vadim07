@@ -1,19 +1,8 @@
 .accordion {
-  width: 730px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
-}
-
-.accordion summary,
-p {
-  font-family: Inter, sans-serif;
-}
-
-.accordion p {
-  margin: 0;
-  padding: 0;
+  line-height: 1.5;
 }
 
 .accordion__item {
@@ -21,9 +10,8 @@ p {
   border: 1px solid var(--gray-3);
   border-radius: 8px;
   margin-bottom: 8px;
-}
-.accordion__item {
   min-height: 72px;
+  padding: 24px 49px 24px 32px;
 }
 
 .accordion__item[open] {
@@ -38,8 +26,6 @@ p {
   cursor: pointer;
   display: block;
   list-style: none;
-  padding-left: 32px;
-  padding-top: 24px;
   color: var(--black);
 }
 
@@ -48,6 +34,13 @@ p {
 }
 
 .accordion__content {
-  margin: 16px 49px 32px 32px;
+  padding-top: 16px;
   color: var(--gray-4);
+}
+
+.accordion__summary__text,
+.accordion__content__text {
+  font-family: Inter, sans-serif;
+  margin: 0;
+  padding: 0;
 }
