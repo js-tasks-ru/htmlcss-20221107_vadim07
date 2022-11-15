@@ -38,8 +38,8 @@
   color: var(--gray-4);
 }
 
-.accordion__summary__text,
-.accordion__content__text {
+.accordion__summary-text,
+.accordion__content-text {
   font-family: Inter, sans-serif;
   margin: 0;
   padding: 0;
