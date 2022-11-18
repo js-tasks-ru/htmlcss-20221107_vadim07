@@ -25,7 +25,7 @@
   gap: 8px;
 }
 
-.skeleton__header-lines {
+.skeleton__lines_header {
   flex-grow: 1;
 }
 
