@@ -1,5 +1,5 @@
 .histogram {
-  padding: 24px;
+  padding: 16px 24px;
   background: var(--white);
   border: 1px solid var(--gray-3);
   border-radius: 8px;
@@ -30,7 +30,6 @@
 .histogram__link {
   font-size: 16px;
   line-height: 24px;
-  text-align: right;
   color: var(--blue);
 }
 
@@ -44,11 +43,11 @@
 .histogram__bars {
   height: 50px;
   display: flex;
-  align-items: baseline;
-  gap: 2px;
+  align-items: flex-end;
+  gap: 1px;
 }
 
 .histogram__bar {
   background-color: #4263eb;
-  width: 100%;
+  flex-grow: 1;
 }
