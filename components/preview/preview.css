@@ -4,7 +4,11 @@
 
 .preview__cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 30%));
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(350px, calc((100% - 320px) / 3))
+  );
   grid-template-rows: repeat(auto-fill, minmax(367px, 1fr));
+  justify-content: center;
   grid-gap: 30px;
 }
