@@ -3,7 +3,8 @@
 }
 
 .preview__cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 30%));
+  grid-template-rows: repeat(auto-fill, minmax(367px, 1fr));
+  grid-gap: 30px;
 }
