@@ -1,0 +1,37 @@
+.menu {
+  width: 229px;
+}
+.menu__title,
+.menu__element {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.menu__title {
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0 0 16px;
+}
+
+.menu__group-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menu__element {
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.menu__element_active {
+  color: #d84910;
+}
+
+.menu__element_back {
+  display: block;
+  margin-top: 30px;
+}
