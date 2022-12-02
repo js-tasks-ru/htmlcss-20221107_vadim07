@@ -17,4 +17,5 @@
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 56px;
+  background-color: transparent;
 }
