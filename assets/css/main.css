@@ -6,6 +6,8 @@
 @import '../../components/preview/preview.css';
 @import '../../components/footer/footer.css';
 @import '../../components/card/card.css';
+@import '../../components/component-preview/component-preview.css';
+@import '../../components/menu/menu.css';
 @import '../../04-lection2/01-histogram/histogram.css';
 
 :root {
