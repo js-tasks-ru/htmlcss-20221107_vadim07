@@ -7,6 +7,18 @@
   padding-right: 30%;
 }
 
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .footer__content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
 .footer__content-title,
 .footer__content-text {
   font-family: 'Inter', sans-serif;
@@ -44,4 +56,27 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--gray-3);
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .footer__content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .footer__content-title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 16px;
+  }
+
+  .footer__content-text {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
