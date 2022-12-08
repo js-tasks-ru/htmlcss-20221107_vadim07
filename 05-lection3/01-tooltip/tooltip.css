@@ -35,3 +35,6 @@
 .tooltip__trigger:hover ~ .tooltip__help {
   display: block;
 }
+.tooltip__trigger:hover .tooltip__icon {
+  fill: #4263eb;
+}
