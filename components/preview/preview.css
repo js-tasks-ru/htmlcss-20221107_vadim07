@@ -19,8 +19,6 @@
       auto-fill,
       minmax(164px, calc((100% - 32px) / 2))
     );
-    grid-template-rows: repeat(auto-fill, minmax(210px, 1fr));
-    justify-content: center;
     grid-gap: 16px;
   }
 }
