@@ -15,6 +15,10 @@
   color: var(--gray-3);
 }
 
+.input__wrapper {
+  position: relative;
+}
+
 .input__input-element {
   background: var(--white);
   border: 1px solid var(--gray-2);
