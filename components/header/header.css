@@ -15,6 +15,27 @@
 }
 
 .header_inner {
-  padding-bottom: 17px;
-  padding-top: 17px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding-bottom: 69px;
+    padding-top: 17px;
+  }
+  .header__title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    margin-top: 49px;
+  }
+  .header__logo {
+    text-align: center;
+  }
+
+  .header_inner {
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
 }

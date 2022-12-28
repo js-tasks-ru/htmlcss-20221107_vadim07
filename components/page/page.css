@@ -19,3 +19,13 @@
   gap: 56px;
   background-color: transparent;
 }
+
+@media screen and (max-width: 767px) {
+  .page__main_inner {
+    grid-template-columns: 0 1fr;
+    gap: 0;
+  }
+  .page__aside {
+    display: none;
+  }
+}
